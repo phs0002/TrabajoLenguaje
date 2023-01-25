@@ -1,2 +1,17 @@
+
+body {
+    background-color: blanchedalmond;
+}
+
+h1{
+
+    color:black;
+    font-size: 34px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    
+}
+
+
 p.fantasy {font-family: fantasy;font-size:xx-large;}
 p.cursiva{font-family:cursive;font-size:x-large;}
