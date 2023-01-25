@@ -3,7 +3,7 @@ body {
     background-color: blanchedalmond;
 }
 
-h1{
+p.titulo{
 
     color:black;
     font-size: 34px;
@@ -12,6 +12,8 @@ h1{
     
 }
 
-
 p.fantasy {font-family: fantasy;font-size:xx-large;}
+
 p.cursiva{font-family:cursive;font-size:x-large;}
+
+
