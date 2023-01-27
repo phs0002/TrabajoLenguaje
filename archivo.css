@@ -4,11 +4,11 @@ body {
 }
 
 @font-face{
-font-family:pas1;
+font-family:pas12;
         src:url(tipo2.ttf);
 }  
 p.titulo{
-    font-family: pas1;
+    font-family: pas12;
     color:black;
     font-size: 50px;
     text-align: center;
