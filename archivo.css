@@ -11,12 +11,33 @@ p.titulo{
     text-align: center;
     
 }
+p.fantasy {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large;text-align: center; 
+    border: 2px solid black; }
 
-p.fantasy {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size:x-large;text-align: center; border: 2px solid black; }
-
-p.cursiva{font-family:cursive;font-size:x-large;}
+p.cursiva{
+    font-family:cursive;
+    font-size:x-large;}
 
 #Logo{
-    width: 200px; height: 150px;text-align: center;}
+    width: 200px; height: 150px;text-align: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 150px;
+}
+#Primerop {
 
+    font-size: 25;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
+}
+
+#PrimeraIMG {
+    width: 200PX;
+    height: 200PX;
+    
+}
