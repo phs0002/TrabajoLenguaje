@@ -1,8 +1,8 @@
 
 body {
     background-color: blanchedalmond;
+    margin: 10px 350px 40px 350px;
 }
-
 @font-face{
 font-family:pas12;
         src:url(tipo2.ttf);
