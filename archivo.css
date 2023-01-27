@@ -14,7 +14,7 @@ p.titulo{
 p.fantasy {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:x-large;text-align: center; 
-    border: 2px solid black; }
+    }
 
 p.cursiva{
     font-family:cursive;
@@ -38,7 +38,8 @@ p.cursiva{
 }
 
 #PrimeraIMG {
-    width: 200PX;
-    height: 200PX;
-    
+    width: 300PX;
+    height: 300PX;
+    align-content: center;
+
 }
