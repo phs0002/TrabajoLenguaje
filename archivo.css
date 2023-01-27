@@ -6,7 +6,16 @@ body {
 @font-face{
 font-family:pas12;
         src:url(tipo2.ttf);
-}  
+}
+@font-face{
+    font-family:tom;
+            src:url(Tom.ttf);
+}   
+
+@font-face{
+    font-family:Dragon;
+            src:url(Dragon\ Ball.ttf);
+}   
 p.titulo{
     font-family: pas12;
     color:black;
@@ -15,12 +24,14 @@ p.titulo{
     
 }
 p.fantasy {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:x-large;text-align: center; 
+    font-family:tom;
+    color:rgb(226, 64, 43);
+    font-size:x-large;text-align: center;
+    font-size: 35px; 
     }
 
 p.cursiva{
-    font-family:cursive;
+    font-family:Dragon;
     font-size:x-large;}
 
 #Logo{
@@ -44,6 +55,8 @@ p.cursiva{
     width: 300PX;
     height: 300PX;
     align-content: center;
+
+
 
 
 }
