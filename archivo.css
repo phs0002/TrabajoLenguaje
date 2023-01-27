@@ -3,11 +3,14 @@ body {
     background-color: blanchedalmond;
 }
 
+@font-face{
+font-family:pas12;
+        src:url(tipo2.ttf);
+}  
 p.titulo{
-
+    font-family: pas12;
     color:black;
     font-size: 50px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     
 }
@@ -33,8 +36,7 @@ p.cursiva{
 
     font-size: 25;
     color:black;
-    font-family: 'Courier New', Courier, monospace;
-    src: url("Pokemon Hollow.ttf");
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
 
@@ -43,6 +45,7 @@ p.cursiva{
     height: 300PX;
     align-content: center;
 
+<<<<<<< HEAD
 }
 #Goku{
 
@@ -57,4 +60,6 @@ p.cursiva{
     display:block;
     margin-left: auto;
     margin-right: auto;
+=======
+>>>>>>> b414e66556ce4d281dca5c09f82c3b462a7380e5
 }
