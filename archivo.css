@@ -3,14 +3,12 @@ body {
     background-color: blanchedalmond;
 }
 
-@font-face{
-font-family:pas1;
-        src:url(tipo2.ttf);
-}  
 p.titulo{
-    font-family: pas1;
+
     color:black;
     font-size: 50px;
+    font-family:Pokemon;
+    src: url();
     text-align: center;
     
 }
