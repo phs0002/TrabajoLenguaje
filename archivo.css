@@ -1,14 +1,18 @@
 
 body {
     background-color: blanchedalmond;
-    margin: 10px 350px 40px 350px;
+    margin: 0px 370px 40px 370px;
 }
 @font-face{
 font-family:pas12;
         src:url(tipo2.ttf);
 }
- 
-
+ fieldset{
+    border: 5px solid red;
+ }
+li{
+    color: red;
+}
 @font-face{
     font-family:Dragon;
             src:url(Dragon\ Ball.ttf);
