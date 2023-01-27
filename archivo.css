@@ -27,5 +27,16 @@ p.cursiva{
     width: 200px;
     height: 150px;
 }
+#Primerop {
 
+    font-size: 25;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
+}
+
+#PrimeraIMG {
+    width: 200PX;
+    height: 200PX;
+    
+}
