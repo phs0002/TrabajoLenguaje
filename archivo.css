@@ -36,7 +36,8 @@ p.cursiva{
 }
 
 #PrimeraIMG {
-    width: 200PX;
-    height: 200PX;
-    
+    width: 300PX;
+    height: 300PX;
+    align-content: center;
+
 }
