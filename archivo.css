@@ -7,14 +7,16 @@ body {
 font-family:pas12;
         src:url(tipo2.ttf);
 }
-@font-face{
-    font-family:tom;
-            src:url(Tom.ttf);
-}   
+ 
 
 @font-face{
     font-family:Dragon;
             src:url(Dragon\ Ball.ttf);
+}   
+
+@font-face{
+    font-family:Pirate;
+            src:url(Pirate\ Jack.ttf);
 }   
 p.titulo{
     font-family: pas12;
@@ -24,8 +26,8 @@ p.titulo{
     
 }
 p.fantasy {
-    font-family:tom;
-    color:rgb(226, 64, 43);
+    font-family:Pirate;
+    color:black(226, 64, 43);
     font-size:x-large;text-align: center;
     font-size: 35px; 
     }
@@ -75,3 +77,5 @@ p.cursiva{
     margin-right: auto;
 
 }
+
+
