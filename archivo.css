@@ -7,8 +7,12 @@ body {
 font-family:pas12;
         src:url(tipo2.ttf);
 }
- 
-
+ fieldset{
+    border: 5px solid red;
+ }
+li{
+    color: red;
+}
 @font-face{
     font-family:Dragon;
             src:url(Dragon\ Ball.ttf);
