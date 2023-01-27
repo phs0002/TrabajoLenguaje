@@ -19,5 +19,16 @@ p.cursiva{font-family:cursive;font-size:x-large;}
 #Logo{
     width: 200px; height: 150px;text-align: center;
 }
+#Primerop {
 
+    font-size: 25;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
+}
+
+#PrimeraIMG {
+    width: 200PX;
+    height: 200PX;
+    
+}
