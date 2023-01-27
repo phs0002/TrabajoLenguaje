@@ -11,6 +11,8 @@ p.titulo{
     font-family: pas12;
     color:black;
     font-size: 50px;
+    font-family:Pokemon;
+    src: url();
     text-align: center;
     
 }
