@@ -1,20 +1,22 @@
 
 body {
     background-color: blanchedalmond;
-    margin: 10px 350px 40px 350px;
+    margin: 0px 370px 40px 370px;
 }
 @font-face{
 font-family:pas12;
         src:url(tipo2.ttf);
 }
-@font-face{
-    font-family:tom;
-            src:url(Tom.ttf);
-}   
+ 
 
 @font-face{
     font-family:Dragon;
             src:url(Dragon\ Ball.ttf);
+}   
+
+@font-face{
+    font-family:Pirate;
+            src:url(Pirate\ Jack.ttf);
 }   
 p.titulo{
     font-family: pas12;
@@ -24,8 +26,8 @@ p.titulo{
     
 }
 p.fantasy {
-    font-family:tom;
-    color:rgb(226, 64, 43);
+    font-family:Pirate;
+    color:black(226, 64, 43);
     font-size:x-large;text-align: center;
     font-size: 35px; 
     }
@@ -75,3 +77,14 @@ p.cursiva{
     margin-right: auto;
 
 }
+
+#Video2{
+    width: 250;
+    height: 250px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
