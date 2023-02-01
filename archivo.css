@@ -12,7 +12,7 @@ font-family:pas12;
         src:url(tipo2.ttf);
 }
  fieldset{
-    border: 5px solid red;
+    border: 5px solid rgb(0, 0, 0);
 }
 
 li2{
