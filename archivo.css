@@ -8,7 +8,7 @@ font-family:pas12;
         src:url(tipo2.ttf);
 }
  fieldset{
-    border: 5px solid rgb(3, 95, 216);
+    border: 5px solid red;
 }
 
 li2{
@@ -22,10 +22,6 @@ li2{
 @font-face{
     font-family:Pirate;
             src:url(Pirate\ Jack.ttf);
-}   
-@font-face{
-    font-family:pas12;
-            src:url(tipo2.ttf);
 }   
 p.titulo{
     font-family: pas12;
@@ -51,7 +47,7 @@ p.cursiva{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
+    width: 510px;
     height: 125px;
 }
 
@@ -92,8 +88,8 @@ p.cursiva{
 
 #tipoletralista{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:large;
-    color: rgb(4, 87, 241);
+    font-size:medium;
+    color: red;
 }
 
 #Video3{
@@ -102,63 +98,4 @@ p.cursiva{
     display:block;
     margin-left: auto;
     margin-right: auto;
-
-}
-
-.navigation {
-    float: left;
-    width: 100%;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navigation li {
-    float: left;
-    width: 30%;
-    text-align: center;
-    padding: 15px 0;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px #333;
-    background-image: linear-gradient(to bottom,crimson ,#333 );
-    transform: translateY(-5px);
-  }
-
-  .navigation li:hover{
-    width: 40%;
-    padding: 25px 0;
-  }
-  
-  .navigation a {
-    display: block;
-    text-decoration: none;
-    color: rgb(248, 248, 248);
-    padding: 10px;
-  }
-
-  
-  .sidebar {
-    float: right;
-    width: 25%;
-    background-color:crimson;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px #333;
-  }
-  
-  .sidebar .genre {
-    float: left;
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #fff;
-    opacity: 0.8;
-  }
-
-.nav{
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-
 }
