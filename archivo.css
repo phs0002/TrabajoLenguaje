@@ -50,13 +50,6 @@ p.cursiva{
     width: 600px;
     height: 200px;
 }
-#Primerop {
-
-    font-size: 25;
-    color:black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
-}
 
 #PrimeraIMG {
     width: 300PX;
@@ -92,4 +85,21 @@ p.cursiva{
 
 }
 
+#tipoletra{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
 
+#tipoletralista{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    color: red;
+}
+
+#Video3{
+    width: 250;
+    height: 250px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
