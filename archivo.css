@@ -104,21 +104,48 @@ p.cursiva{
     margin-right: auto;
 }
 
-*{
+.navigation {
+    float: left;
+    width: 100%;
+    list-style: none;
     margin: 0;
     padding: 0;
-}
-
-.button{
-    background:white;
-    color: #fff;
-    display:inline-block;
-    font-size:1.25em;
-    margin: 20px;
-    padding: 10px 0px;
+  }
+  
+  .navigation li {
+    float: left;
+    width: 20%;
     text-align: center;
-    width: 200px;
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #333;
+    background-image: linear-gradient(to bottom, #fff, #eee);
+    transform: translateY(-5px);
+  }
+  
+  .navigation a {
+    display: block;
     text-decoration: none;
-    box-shadow: 0px 3px 0px #373c33;
-    
-}
+    color: #333;
+    padding: 10px;
+  }
+
+  
+  .sidebar {
+    float: right;
+    width: 25%;
+    background-color:crimson;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #333;
+  }
+  
+  .sidebar .genre {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    opacity: 0.8;
+  }
