@@ -10,9 +10,14 @@
             font-family: Arial, sans-serif;
         }
 
-        body {
+        .fondo {
+            position: fixed;
+            top: 0;
+            left: 0;
             background-image: url("fondo.gif");
             height: 100%;
+            width: 100%;
+            z-index: -1;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -87,6 +92,7 @@
 </head>
 
 <body>
+    <div class="fondo"></div>
     <div class="navbar">
         <a href="#home">Inicio</a>
         <a href="index.html">Información</a>
