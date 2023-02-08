@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<anime xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="anime.xsd">
+  <titulo>Naruto</titulo>
+  <descripcion>Naruto es un joven ninja con un espíritu libre que sueña con convertirse en Hokage, el líder de su aldea.</descripcion>
+  <duracion>22 min</duracion>
+  <genero>Acción, Aventura, Fantasía</genero>
+  <fechaLanzamiento>2002-10-03</fechaLanzamiento>
+</anime>
