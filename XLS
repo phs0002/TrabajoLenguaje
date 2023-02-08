@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+  
+  <xsl:template match="/">
+    <html>
+      <body>
+        <h2>Lista de Animes</h2>
+        <table border="1">
+          <tr>
+            <th>Título</th>
+            <th>País</th>
+            <th>Año</th>
+            <th>Premios</th>
+          </tr>
+          <xsl:for-each select="animes/anime">
+            <tr>
+              <td><a href="detalles.html?titulo={titulo}"><xsl:value-of select="titulo" /></a></td>
+              <td><xsl:value-of select="pais" /></td>
+              <td><xsl:value-of select="ano" /></td>
+              <td><xsl:value-of select="premios" /></td>
+            </tr>
+          </xsl:for-each>
+        </table>
+        <h2>Animes Japoneses más Premiados</h2>
+        <table border="1">
+          <tr>
+            <th>Título</th>
+            <th>País</th>
+            <th>Año</th>
+            <th>Premios</th>
+          </tr>
+          <xsl:for-each select="animes/anime[pais='Japón']">
+            <xsl:sort select="premios" data-type="number" order="descending"/>
+            <tr>
+              <td><a href="detalles.html?titulo={titulo}"><xsl:value-of select="titulo" /></a></td>
+              <td><xsl:value-of select="pais" /></td>
+              <td><xsl:value-of select="ano" /></td>
+              <td><xsl:value-of select="premios" /></td>
+            </tr>
+          </xsl:for-each>
+        </table>
+      </body>
+    </html>
+  </xsl:template>
+
+  <xsl:template match="anime">
+    <html>
+      <body>
+        <h2><xsl:value-of select="titulo" /></h2>
+        <table>
+          <tr>
+            <td>País:</td>
+            <td><xsl:value-of select="pais" /></td>
+          </tr>
+          <tr>
+            <td>Año:</td>
+            <td><xsl:value-of select="ano" /></td>
+          </tr>
+          <tr>
+            <td>Premios:</td>
+            <td><xsl:value-of select="premios" /></td>
+         </tr>
+<tr>
+<td>Sinopsis:</td>
+<td><xsl:value-of select="sinopsis" /></td>
+</tr>
+</table>
+</body>
+</html>
+</xsl:template>
+
+</xsl:stylesheet> 
