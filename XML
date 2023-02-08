@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animes>
+  <anime>
+    <titulo>Death Note</titulo>
+    <pais>Japón</pais>
+    <ano>2006</ano>
+    <premios>10</premios>
+    <sinopsis>Death Note es un anime japonés basado en el manga homónimo escrito por Tsugumi Ohba e ilustrado por Takeshi Obata. La historia sigue a un estudiante de preparatoria llamado Light Yagami, quien descubre un cuaderno mágico que le permite matar a cualquier persona cuya identidad escriba en él. Light comienza a utilizar el cuaderno para acabar con la delincuencia y la corrupción, pero un detective llamado L lo persigue para detenerlo.</sinopsis>
+  </anime>
+  <anime>
+    <titulo>One Piece</titulo>
+    <pais>Japón</pais>
+    <ano>1999</ano>
+    <premios>8</premios>
+    <sinopsis>One Piece es un anime japonés basado en el manga homónimo escrito e ilustrado por Eiichiro Oda. La historia sigue a Monkey D. Luffy, un joven pirata en su búsqueda para encontrar el tesoro más valioso del mundo, el One Piece, y convertirse en el rey de los piratas. Con la ayuda de sus amigos, Luffy navega por el Grand Line en busca de aventura y tesoros mientras se enfrenta a enemigos peligrosos y fuertes.</sinopsis>
+  </anime>
+  <anime>
+    <titulo>Naruto</titulo>
+    <pais>Japón</pais>
+    <ano>2002</ano>
+    <premios>7</premios>
+    <sinopsis>Naruto es un anime japonés basado en el manga homónimo escrito e ilustrado por Masashi Kishimoto. La historia sigue a Naruto Uzumaki, un joven ninja de la aldea de Konoha, que sueña con ser reconocido como el Hokage, el líder más poderoso de su aldea. A medida que Naruto avanza en su camino para convertirse en Hokage, se enfrenta a desafíos y hace nuevos amigos en el camino.</sinopsis>
+  </anime>
+</animes>
