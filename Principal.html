@@ -2,55 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="cssPrincipal.css">
-    <style>
-      /* Estilo para el menú lateral */
-      .sidebar {
-        height: 100%;
-        width: 200px;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        padding-top: 16px;
-      }
-
-      /* Estilo para los elementos del menú */
-      .sidebar a {
-        padding: 6px 8px 6px 16px;
-        text-decoration: none;
-        font-size: 20px;
-        color: #818181;
-        display: block;
-      }
-
-      /* Estilo para los elementos del menú al pasar el cursor por encima */
-      .sidebar a:hover {
-        color: #f1f1f1;
-      }
-      
-
-      /* Estilo para el contenido principal */
-      .main {
-        margin-left: 200px;
-        padding: 16px;
-        color: rgb(201, 201, 201);
-      }
-
-      /* Responsive design - hace que el menú se oculte en dispositivos pequeños */
-      @media (max-width: 600px) {
-        .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .main {
-      margin-left: 0;
-      color: #818181;
-    }
-  }
-</style>
+    
   </head>
 
   <body class="body">
@@ -62,35 +14,35 @@
     </header>
     
 
-    <!-- Menú lateral -->
+    
     <div class="sidebar">
       <a href="Inicio.html">Inicio</a>
-      <a href="">Contactanos</a>
-      <a href="">Acerca de</a>
+      <a href="#opiniones">Contactanos</a>
+      <a href="#container">Acerca de</a>
       <a href="#seccion1">Acción</a>
       <a href="#seccion2">Aventuras</a>
       <a href="#seccion3">Fantasía</a>
     </div>
 
-<!-- Contenido principal -->
+
 <div class="main">
   <h2 id="seccion1">Acción</h2>
   <p>Uno de los géneros más populares del anime, sea shounen, seinen o fantasía, es el de acción. Nuestros animes favoritos siempre cuentan con un momento donde la animación demuestre de lo que es capaz, ya sea al ver una pelea cuerpo a cuerpo o una batalla épica entre espadachines. ¿Conoces los mejores animes de acción que hay? ¡Pues aquí te los presentamos!</p>
   <img src="https://media.vandalsports.com/i/640x360/1-2023/2023117153552_1.jpg" alt="Imagen de la sección 1" width="500px" height="300px" >
   <br>
   <h2 id="seccion2">Aventuras</h2>
+  <p>Bienvenidos a nuestra sección de animes de aventura, donde podrás encontrar los mejores títulos de anime de aventura disponibles. ¿Te gusta la acción, la emoción y la exploración? ¿Te encantan los mundos imaginarios y los personajes fascinantes? Entonces los animes de aventura son perfectos para ti. Desde viajes épicos en busca de tesoros perdidos hasta batallas épicas contra malvados villanos, estos animes te mantendrán en vilo y te harán sentir la emoción de la aventura en cada episodio. ¡Echa un vistazo a nuestra selección y encuentra tu próximo anime de aventura favorito!</p>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6LhOvfOAFa6_GFgJeZFdOEN3TQcmlTG12lQ&usqp=CAU" alt="Imagen de la sección 2" width="500px" height="300px">
-  <p>Contenido de la sección 2</p>
   <br>
   <h2 id="seccion3">Fantasía</h2>
+  <p>Bienvenidos a nuestra sección de animes de fantasía, donde podrás explorar mundos imaginarios y conocer a personajes inolvidables. ¿Te encanta imaginar y soñar? ¿Estás buscando un escape a un mundo donde todo es posible? Entonces los animes de fantasía son perfectos para ti. Desde historias épicas de héroes y reinos en peligro hasta aventuras en mundos mágicos y misteriosos, estos animes te llevarán a un lugar donde la imaginación no tiene límites. ¡Echa un vistazo a nuestra selección y deja que la fantasía te lleve lejos!</p>
   <img src="https://www.industriaanimacion.com///wp-content/uploads/2021/08/BlackClover.webp" alt="Imagen de la sección 3" width="500px" height="300px">
-  <p>Contenido de la sección 3</p>
 </div>
 
 
 
-<div class="opiniones">
-  <h3>Utilice el siguiente espacio para: </h3>
+<div class ="opiniones">
+  <h3 id="opiniones">Utilice el siguiente espacio para: </h3>
 </div>
 <div class="opiniones">
   <ul>
@@ -116,7 +68,7 @@
       
 <footer>
   <div class="container">
-    <p>Copyright ©2023. Todos los derechos reservados.</p>
+    <p id="container">Copyright ©2023. Todos los derechos reservados.</p>
     <div class="links">
       <a href="#">Twitter</a>
       <a href="#">Facebook</a>
