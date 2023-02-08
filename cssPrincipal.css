@@ -42,6 +42,53 @@ footer {
   
   
 
-    background-color:rgb(58, 58, 58);
+    background-color:rgb(80, 79, 79);
   }
 
+  .sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+
+ 
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+
+ 
+  .main {
+    margin-left: 200px;
+    padding: 16px;
+    color: rgb(201, 201, 201);
+    font-size: 18px;
+  }
+
+  
+  @media (max-width: 600px) {
+    .sidebar {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.main {
+  margin-left: 0;
+  color: #818181;
+}
+}
