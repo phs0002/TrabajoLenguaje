@@ -7,3 +7,30 @@
     width: 500px;
     height: 125px;
 }
+
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .links a {
+    color:bisque;
+    margin-right: 1rem;
+    text-decoration: none;
+  }
+
+  .container{
+    color: bisque;
+  }
+
+  .opiniones{
+    text-align: center;
+  }
