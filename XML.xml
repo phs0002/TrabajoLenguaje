@@ -1,27 +1,17 @@
-<?xml version="1.0"?>
-<link rel="stylesheet" href="cssPrincipal.css">
+<?xml version="1.0" encoding="ISO-8859-1"?>    
 <Animes>
-  <Anime>
-    <Nombre>Attack on Titan</Nombre>
-    <Descripcion>Un mundo en el que los humanos viven en constante miedo a los Titanes, criaturas gigantes que devoran personas sin ningún motivo aparente. Eren Yeager y sus amigos, Mikasa y Armin, deciden unirse a la defensa del muro que protege a su ciudad del peligro constante.</Descripcion>
-  </Anime>
-  <br>
-  <Anime>
-    <Nombre>Death Note</Nombre>
-    <Descripcion>Light Yagami es un joven brillante y ambicioso que descubre un cuaderno misterioso con el poder de matar a cualquiera cuyo nombre sea escrito en él. Con el objetivo de crear un mundo mejor, comienza a usar el Death Note para matar a los delincuentes y criminales, pero pronto se encuentra en la mira de un detective conocido como L.</Descripcion>
-  </Anime>
-  <br>
-  <Anime>
-    <Nombre>FullMetal Alchemist: Brotherhood</Nombre>
-    <Descripcion>Después de intentar traer a su madre de vuelta a la vida con alquimia, los hermanos Edward y Alphonse Elric pierden partes importantes de sus cuerpos. Con el objetivo de recuperarlos, se unen a una misión peligrosa para encontrar la leyenda de la Piedra Filosofal.</Descripcion>
-  </Anime>
-  <br>
-  <Anime>
-    <Nombre>Sword Art Online</Nombre>
-    <Descripcion>Kirito es un jugador de un videojuego de realidad virtual llamado Sword Art Online. Cuando los jugadores se encuentran atrapados en el juego, Kirito se une a otros jugadores en una aventura para escapar y descubrir la verdad detrás del juego.</Descripcion>
-  </Anime>
-  <br>
-  <Anime>
-    <Nombre>Naruto</Nombre>
-    <Descripcion>Naruto Uzumaki es un joven ninja con un espíritu aventurero y un gran deseo de ser reconocido. Con el objetivo de convertirse en Hokage, el líder de su aldea, Naruto se embarca en una serie de misiones y luchas para mejorar sus habilidades y proteger a sus amigos.</Descripcion>
-  </Anime>
+    <anime xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="anime.xsd">
+  <titulo>Naruto</titulo>
+  <descripcion>Naruto es un joven ninja con un espíritu libre que sueña con convertirse en Hokage, el líder de su aldea.</descripcion>
+  <duracion>22 min</duracion>
+  <genero>Acción, Aventura, Fantasía</genero>
+  <fechaLanzamiento>2002-10-03</fechaLanzamiento>
+</anime>
+
+    <document>
+        <name>Sample</name>
+        <type>document</type>
+        <url>http://nsc-component.webs.com/Office/Editor/new-doc.html?docname=New+Document&amp;titletype=Title&amp;fontsize=9&amp;fontface=Arial&amp;spacing=1.0&amp;text=&amp;</url>
+    </document>
+</Animes>
