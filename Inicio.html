@@ -90,11 +90,18 @@
             color: black;
         }
 
+        .texto{
+            font-size: 15px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
         
     </style>
+    
 </head>
 
 <body>
+    
     <div class="fondo"></div>
     <div class="navbar">
         <a href="#home">Inicio</a>
@@ -106,25 +113,43 @@
     </div>
     <div class="anime-list">
         <div class="anime-card">
+            
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpyMxvYi88EraEdu_d1qNwj9Adej-MDYQklg&usqp=CAU"
                 alt="Información">
-            <h2>En esta página web encontrarás todo tipo de información sobre los animes más relevantes de los últimos
-                tiempos, al igual que una lista donde encontraremos los personajes más famosos y queridos por la
-                comunidad.
-            </h2>
+            <button onclick="mostrarMas('card-1')">Mostrar más</button>
+            <div id="card-1" style="display:none;">
+                <p class="texto">En esta página web encontrarás todo tipo de información sobre los animes más relevantes de los últimos
+                    tiempos, al igual que una lista donde encontraremos los personajes más famosos y queridos por la
+                    comunidad.</p>
+            </div>
         </div>
-        </a>
+        
         <div class="anime-card">
             <img src="https://cinreservas.com/wp-content/uploads/2020/07/akira-WEB.png" alt="Premios">
-            <h2>También podrás encontrar los eventos más relevantes de entrega de premios anime, al igual que podrás ver
-                todos los ganadores a estos premios de los últimos años.
-            </h2>
+            <button onclick="mostrarMas('card-2')">Mostrar más</button>
+            <div id="card-2" style="display:none;">
+                <p class="texto">También podrás encontrar los eventos más relevantes de entrega de premios anime, al igual que podrás ver
+                    todos los ganadores a estos premios de los últimos años.</p>
+            </div>
         </div>
-        </a>
-
-        </a>
     </div>
 
+    <script>
+        function mostrarMas(cuadro) {
+            var contenido = document.getElementById(cuadro);
+            var boton = document.querySelector('[onclick="mostrarMas(\'' + cuadro + '\')"]');
+        
+            if (contenido.style.display === "none") {
+                contenido.style.display = "block";
+                boton.innerHTML = "Mostrar menos";
+            } else {
+                contenido.style.display = "none";
+                boton.innerHTML = "Mostrar más";
+            }
+        }
+    </script>
 </body>
-
 </html>
+
+
+
